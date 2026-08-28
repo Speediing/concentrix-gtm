@@ -130,7 +130,7 @@ function GranolaScreen({ account }: { account: string }) {
     <div className="site site-granola">
       <header>
         <strong>Granola</strong>
-        <span>Live workshop</span>
+        <span>{account} · live workshop</span>
       </header>
       <p className="site-time">Following decisions and owners</p>
       <ul>
