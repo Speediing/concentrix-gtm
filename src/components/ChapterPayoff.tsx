@@ -31,19 +31,19 @@ function OutboundPack({
 
         <div className="out-phone-thread">
           <article className="out-email-card">
-            <p className="out-email-label">Draft email · 1 of 10</p>
+            <p className="out-email-label">Draft email</p>
             <p className="out-email-subject">
-              Subject · {artifact.account}&apos;s last Sev-2
+              Subject · A small pilot for {artifact.account}
             </p>
             <div className="out-email-copy">
               <p>Hi {firstName},</p>
               <p>
-                Your status page and open Staff SRE role point to the same
-                thing: on-call still stitches APM and logs to name a Sev-2.
+                The current program brief points to repeatable follow-up work
+                with a clear owner and review.
               </p>
               <p>
-                I put together the 90-second version for your platform team.
-                Worth fifteen minutes next week?
+                I put together a small pilot with the sources and approval
+                points named. Would you review it with us?
               </p>
               <p>Sam</p>
             </div>
@@ -54,10 +54,10 @@ function OutboundPack({
           </article>
 
           <p className="out-message is-you">
-            Send the top 10 emails. They look good.
+            Send the approved emails. They look good.
           </p>
           <p className="out-message is-bot">
-            Top 10 sending. The rest stay queued.
+            Approved drafts are sending. The rest stay queued.
           </p>
         </div>
 
@@ -82,7 +82,7 @@ function UpstairsMemo({
         <div>
           <p className="leave-kicker">{artifact.title}</p>
           <h3>
-            {artifact.account || "Acme"}
+            {artifact.account || "Concentrix"}
             {artifact.amount ? ` · ${artifact.amount}` : ""}
           </h3>
         </div>
@@ -135,14 +135,14 @@ function BetterAnswer({
     <div className="leave leave-answer">
       <header className="leave-answer-top">
         <div>
-          <p className="leave-kicker">Open source objection</p>
-          <h3>The line that wins</h3>
+          <p className="leave-kicker">Pilot scope question</p>
+          <h3>A clear answer</h3>
         </div>
         <p className="leave-score">{artifact.score}</p>
       </header>
       <div className="leave-split">
         <section className="leave-before">
-          <p className="leave-kicker">Too abstract</p>
+          <p className="leave-kicker">Too broad</p>
           <p className="leave-weak">
             {artifact.weakLine || artifact.notes[0]}
           </p>
@@ -153,13 +153,13 @@ function BetterAnswer({
           </ul>
         </section>
         <section className="leave-after">
-          <p className="leave-kicker">Say this</p>
+          <p className="leave-kicker">Clear next step</p>
           <p className="leave-win">{artifact.betterAnswer}</p>
           <p className="leave-incident" aria-hidden>
-            <span>Prometheus</span>
-            <span>Grafana</span>
-            <span>Log pile</span>
-            <b>APM + Logs</b>
+            <span>One workflow</span>
+            <span>Known sources</span>
+            <span>Human approval</span>
+            <b>Joint pilot</b>
           </p>
         </section>
       </div>

@@ -8,9 +8,11 @@ export function BrandLockup({
     <div className={`brand-lockup brand-lockup-${size}`}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/brand/datadog-wordmark.svg"
-        alt="Datadog"
-        className="brand-dd"
+        src="https://www.concentrix.com/wp-content/uploads/2024/02/concentrix_logo.webp"
+        alt="Concentrix"
+        className="brand-wordmark"
+        width="804"
+        height="124"
       />
       <span className="brand-times" aria-hidden>
         ×

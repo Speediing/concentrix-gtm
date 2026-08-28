@@ -12,7 +12,7 @@ export default function HomePage() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           className="hero-watercolor-image"
-          src="/brand/watercolor-pad.png"
+          src="/brand/concentrix-watercolor.png"
           alt=""
         />
         <SiteNav />
@@ -23,11 +23,13 @@ export default function HomePage() {
           <HeroTelemetry />
           <section className="hero">
             <div>
-              <p className="eyebrow">A proactive agent for every Datadog rep</p>
-              <h1>The agents that work while your reps sell.</h1>
+              <p className="eyebrow">
+                A fleet of agents for every Concentrix team
+              </p>
+              <h1>The agents that keep client work moving.</h1>
               <p className="hero-intro">
-                Grok Bot listens to calls, watches the inbox, and researches
-                accounts in the background. Work triggers it — not another
+                Grok Bot follows approved calls, inboxes, and project tools in
+                the background. The work starts from a signal, not another
                 prompt.
               </p>
             </div>
@@ -36,11 +38,11 @@ export default function HomePage() {
           <section className="usecase-framing">
             <p className="eyebrow">Three sample use cases</p>
             <h2>
-              Grok Bot gives every seller their own fleet of always-available
-              agent teammates. Anything your sellers do today can be done
-              through Grok Bot.
+              Grok Bot gives each team a chief agent and a group of
+              specialists. Each agent has a computer, a clear job, and a path
+              back to a person.
             </h2>
-            <p>These are three examples from millions — not the boundary.</p>
+            <p>These three scenes show where a first pilot could start.</p>
           </section>
 
           <div className="metric-grid">
@@ -69,7 +71,7 @@ export default function HomePage() {
 
       <div className="orbit-break" aria-hidden>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/brand/watercolor-orbit.png" alt="" />
+        <img src="/brand/concentrix-watercolor.png" alt="" />
       </div>
 
       <div className="report">
@@ -79,14 +81,14 @@ export default function HomePage() {
 
       <footer className="site-footer">
         <div>
-          <p className="footer-title">Cursor for Datadog</p>
-          <p>Grok Bot for Datadog sales</p>
+          <p className="footer-title">Concentrix x SpaceXAI</p>
+          <p>Grok Bot for Concentrix</p>
         </div>
         <address className="footer-contact">
-          <p>Datadog&apos;s existing Cursor contact</p>
-          <strong>Madeline Ingleby</strong>
-          <a href="mailto:madeline.ingleby@cursor.com">
-            madeline.ingleby@cursor.com
+          <p>Concentrix&apos;s Cursor contact</p>
+          <strong>Mike Kelly</strong>
+          <a href="mailto:michael.kelly@cursor.com">
+            michael.kelly@cursor.com
           </a>
         </address>
       </footer>
