@@ -1,4 +1,5 @@
 import { CompareTable } from "@/components/CompareTable";
+import { HeroDemo } from "@/components/HeroDemo";
 import { HeroTelemetry } from "@/components/HeroTelemetry";
 import { JobSection } from "@/components/JobSection";
 import { QuoteWall } from "@/components/QuoteWall";
@@ -22,17 +23,7 @@ export default function HomePage() {
         <div className="report-hero">
           <HeroTelemetry />
           <section className="hero">
-            <div>
-              <p className="eyebrow">
-                A fleet of agents for every Concentrix team
-              </p>
-              <h1>The agents that keep client work moving.</h1>
-              <p className="hero-intro">
-                Grok Bot follows approved calls, inboxes, and project tools in
-                the background. The work starts from a signal, not another
-                prompt.
-              </p>
-            </div>
+            <HeroDemo />
           </section>
 
           <section className="usecase-framing">
