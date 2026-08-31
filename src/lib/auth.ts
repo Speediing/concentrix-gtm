@@ -1,7 +1,7 @@
 export const AUTH_COOKIE = "concentrix_gtm_session";
 
 export function sitePassword(): string {
-  return process.env.SITE_PASSWORD || "";
+  return process.env.SITE_PASSWORD || "posse";
 }
 
 function toHex(buffer: ArrayBuffer): string {
